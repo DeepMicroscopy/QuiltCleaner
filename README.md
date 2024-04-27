@@ -2,7 +2,7 @@
 
 Welcome to the QuiltCleaner repository. We labeled 1% of the QUILT_1M dataset for common image impurities that would be deteriorating image generation in a text-conditional image synthesis setting. We provide predictions for the remaining 99% of the QUILT_1M dataset. Additionally, we provide scores for text-image alignment as provided by the CONCH vision-language model.
 
-Paper: [Aubreville et al: Model-based Cleaning of the QUILT-1M Pathology Dataset for Text-Conditional Image Synthesis](https://arxiv.org/abs/2404.07676) 
+Paper (accepted for MIDL 2024): [Aubreville et al: Model-based Cleaning of the QUILT-1M Pathology Dataset for Text-Conditional Image Synthesis](https://openreview.net/forum?id=m7wYKrUjzV)
 
 
 ## Base dataset
@@ -33,9 +33,11 @@ You will need to download the QUILT-1M dataset separately, as this can not be pr
 ## Citation
 
 ```
-@misc{aubreville2024modelbased,
+@inproceedings{aubreville2024modelbased,
       title={Model-based Cleaning of the QUILT-1M Pathology Dataset for Text-Conditional Image Synthesis}, 
       author={Marc Aubreville and Jonathan Ganz and Jonas Ammeling and Christopher C. Kaltenecker and Christof A. Bertram},
+      booktitle={Medical Imaging with Deep Learning},
+      url={https://openreview.net/forum?id=m7wYKrUjzV},
       year={2024},
       eprint={2404.07676},
       archivePrefix={arXiv},
