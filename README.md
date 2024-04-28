@@ -27,7 +27,7 @@ The annotations are provided in the following files:
 - [val_annotations.csv](val_annotations.csv) Validation set (15%, used for model selection)
 - [test_annotations.csv](test_annotations.csv) Hold out test set (15%)
 
-You will need to download the QUILT-1M dataset separately, as this can not be provided in this repository due to licensing reasons. Place all files that were annotated into the *images* folder of this repository. Then, you will be able to train your own QuiltCleaner using the [provided notebook](Train-QuiltCleaner.ipynb). 
+You will need to download the QUILT-1M dataset separately, as this can not be provided in this repository due to licensing reasons. Place all files that were annotated into the *images* folder of this repository. Then, you will be able to train your own QuiltCleaner using the [provided notebook](Train-QUILTCleaner.ipynb). 
 
 
 ## Citation
